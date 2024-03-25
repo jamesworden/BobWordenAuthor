@@ -10,11 +10,11 @@
   />
 </svelte:head>
 
-<section>
+<section class="flex">
   <ProfileCard />
 
   <div class="diagonal-bg p-8">
-    <div class="p-16 bg-gray-50">
+    <div class="p-16 pb-48 bg-gray-50">
       <div class="mb-12">
         <h3 class="uppercase text-gray-600 tracking-widest">
           Bob Worden's New Title

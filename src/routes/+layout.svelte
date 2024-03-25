@@ -8,7 +8,7 @@
   <Header />
 
   <main
-    class="flex flex-col w-full flex-1 page-content-width mx-auto box-border p-2"
+    class="flex flex-col w-full flex-1 page-content-width mx-auto box-border px-2"
   >
     <slot />
   </main>
