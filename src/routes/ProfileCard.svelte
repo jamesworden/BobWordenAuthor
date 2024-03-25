@@ -3,7 +3,7 @@
 </script>
 
 <section
-  class="horisontal-bg p-6 shadow-xl flex flex-col relative bg-indigo-100 mt-16"
+  class="horisontal-bg p-6 shadow-xl flex flex-col relative bg-slate-200 mt-16"
 >
   <picture class="-mt-16">
     <img src={bob_worden} alt="Bob Worden" class="max-w-xs" />
@@ -11,7 +11,7 @@
 
   <h3 class="text-gray-600 uppercase my-6">Bob Worden, Esq.</h3>
 
-  <h3 class="uppercase font-semibold">
+  <h3 class="uppercase font-semibold max-w-80">
     Bob is an award winning mediator and arbitrator.
   </h3>
 
