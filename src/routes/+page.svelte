@@ -83,6 +83,30 @@
   </div>
 </section>
 
+<section class="bg-white p-12">
+  <div class="page-content-width px-2 mx-auto grid grid-cols-3 gap-4">
+    <div class="p-4">
+      <h2 class="font-semibold mb-4">Mediation resolves conflict fast.</h2>
+      <hr class="h-px w-1/6 bg-black" />
+    </div>
+
+    <div class="p-4">
+      Mediation is when a neutral person with special knowledge seeks to resolve
+      a lawsuit or other dispute, by meeting with the parties to the lawsuit in
+      order to obtain a swift and fair negotiated settlement. Arbitration
+      decides disputes with informal hearings before one arbitrator or several
+      arbitrators.
+    </div>
+
+    <div class="p-4">
+      There is no jury. Arbitration is much quicker and much less expensive that
+      going to trial before a Court. Unlike mediation, arbitration has no
+      negotiation. The arbitrator hears the evidence in a case and decides if
+      there will be any award and, if so, how much the award will be.
+    </div>
+  </div>
+</section>
+
 <style>
   .diagonal-bg {
     background-color: transparent;
