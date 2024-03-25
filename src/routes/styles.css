@@ -17,6 +17,8 @@
   --color-blue-4: #363c47;
 
   --color-gold-0: #bba84c;
+
+  --page-width: 1200px;
 }
 
 html,
@@ -34,12 +36,4 @@ h1 {
 
 h2 {
   font-size: 19px;
-}
-
-.container {
-  width: 100%;
-  max-width: 1200px;
-  display: flex;
-  justify-content: space-between;
-  padding: 0rem 1rem;
 }

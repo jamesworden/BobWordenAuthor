@@ -1,53 +1,61 @@
 <script>
-	import { page } from '$app/stores';
+  import { page } from '$app/stores';
 </script>
 
 <header>
-	<div class="container">
-		<ul class="corner">
-			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="/">Bob Worden, Esq.</a>
-			</li>
-		</ul>
-	
-		<nav>
-			<ul>
-				<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-					<a href="/" style="margin-right: 4rem">Home</a>
-				</li>
-				<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-					<a href="/about">About Bob</a>
-				</li>
-			</ul>
-		</nav>
-	</div>
+  <div class="container">
+    <ul class="corner">
+      <li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+        <a href="/">Bob Worden, Esq.</a>
+      </li>
+    </ul>
+
+    <nav>
+      <ul>
+        <li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+          <a href="/" style="margin-right: 4rem">Home</a>
+        </li>
+        <li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
+          <a href="/about">About Bob</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </header>
 
 <style>
-	header {
-		display: flex;
-		justify-content: space-around;
-		background-color: var(--color-white);
-		border-bottom: 1px solid var(--color-gray-2);
-		font-weight: 600;
-	}
+  .container {
+    width: 100%;
+    max-width: var(--page-width);
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+  }
 
-	li {
-		list-style-type: none;
-	}
+  header {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--color-white);
+    border-bottom: 1px solid var(--color-gray-2);
+    font-weight: 600;
+  }
 
-	a {
-		text-decoration: none;
-		color: var(--color-black);
-	}
+  li {
+    list-style-type: none;
+  }
 
-	ul {
-		display: flex;
-		margin: 2rem 0rem;
-		padding: 0;
-	}
+  a {
+    text-decoration: none;
+    color: var(--color-black);
+  }
 
-	.corner {
-		text-transform: uppercase;
-	}
+  ul {
+    display: flex;
+    margin: 2rem 0rem;
+    padding: 0;
+  }
+
+  .corner {
+    text-transform: uppercase;
+  }
 </style>
