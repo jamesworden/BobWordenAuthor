@@ -3,7 +3,7 @@
 </script>
 
 <header>
-  <div class="container">
+  <div class="container page-content-width">
     <ul class="corner">
       <li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
         <a href="/">Bob Worden, Esq.</a>
@@ -26,10 +26,8 @@
 <style>
   .container {
     width: 100%;
-    max-width: var(--page-width);
     display: flex;
     justify-content: space-between;
-    padding: 0rem 1rem;
   }
 
   header {

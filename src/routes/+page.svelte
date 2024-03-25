@@ -1,18 +1,26 @@
 <script>
-	import bob_worden from '$lib/images/bob-worden.png';
+  import ProfileCard from './ProfileCard.svelte';
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Bob Worden's Latest Title, How to Stop Wars and Save the World" />
+  <title>Home</title>
+  <meta
+    name="description"
+    content="Bob Worden's Latest Title, How to Stop Wars and Save the World"
+  />
 </svelte:head>
 
-<section>
-	<picture>
-		<source srcset={bob_worden} type="image/webp" />
-	</picture>
+<section class="hero-section">
+  <ProfileCard />
+
+  <div>
+    <h3>Bob Worden's New Title</h3>
+
+    <h1>How to Stop Wars and Save the World</h1>
+
+    <h2>Lessons in Negotiation, Settlement, and Leadership</h2>
+  </div>
 </section>
 
 <style>
-	
 </style>

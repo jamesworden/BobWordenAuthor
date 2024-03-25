@@ -1,5 +1,5 @@
 <footer>
-  <div class="footer-container">
+  <div class="footer-container page-content-width">
     <p class="footer-paragraph">
       990 Stewart Avenue, 1st Floor
       <br />
@@ -36,7 +36,6 @@
   .footer-container {
     column-gap: 1rem;
     width: 100%;
-    max-width: var(--page-width);
     display: flex;
     padding: 0rem 1rem;
   }
