@@ -10,7 +10,7 @@
   />
 </svelte:head>
 
-<section class="hero-section">
+<section>
   <ProfileCard />
 
   <div>
@@ -21,6 +21,3 @@
     <h2>Lessons in Negotiation, Settlement, and Leadership</h2>
   </div>
 </section>
-
-<style>
-</style>

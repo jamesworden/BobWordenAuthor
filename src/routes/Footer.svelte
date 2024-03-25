@@ -1,5 +1,5 @@
-<footer>
-  <div class="footer-container page-content-width">
+<footer class="flex justify-around py-4">
+  <div class="footer-container gap-4 page-content-width">
     <p class="footer-paragraph">
       990 Stewart Avenue, 1st Floor
       <br />
@@ -10,7 +10,7 @@
       1-800-358-2550
     </p>
 
-    <p class="footer-paragraph">
+    <p class="max-w-80">
       All mediation and arbitration services are coordinated through National
       Mediation and Arbitration.
       <br />
@@ -26,22 +26,14 @@
 
 <style>
   footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
     background-color: var(--color-blue-4);
     color: var(--color-gray-2);
   }
 
   .footer-container {
-    column-gap: 1rem;
     width: 100%;
     display: flex;
     padding: 0rem 1rem;
-  }
-
-  .footer-paragraph {
-    max-width: 20rem;
   }
 
   @media (max-width: 720px) {
