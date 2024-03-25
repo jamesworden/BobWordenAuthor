@@ -108,7 +108,7 @@
 </section>
 
 <section>
-  <div class="page-content-width px-2 mx-auto flex text-white">
+  <div class="page-content-width mx-auto flex text-white shadow-xl">
     <div class="flex-1 bg-yellow-600 p-12">
       <h2 class="font-semibold text-3xl mb-4">Experience</h2>
 
@@ -188,13 +188,16 @@
 
 <section class="page-content-width px-2 mx-auto flex w-full">
   <div class="diagonal-bg p-8 flex flex-1">
-    <div class="p-16 bg-gray-50 flex flex-1">
-      <div>
+    <div class="p-16 pl-0 bg-gray-50 flex flex-1 justify-between">
+      <div class="h-64 flex flex-col justify-between">
         <h1 class="text-3xl">Reach out to Bob</h1>
         <button
           class="text-white bg-yellow-600 py-2 px-8 uppercase tracking-wide shadow-lg font-bold"
           on:click={readMore}>Send</button
         >
+      </div>
+      <div class="flex flex-col justify-end">
+        <TriangleGraphic />
       </div>
     </div>
   </div>
