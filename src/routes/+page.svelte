@@ -193,7 +193,7 @@
         <h1 class="text-3xl">Reach out to Bob</h1>
         <button
           class="text-white bg-yellow-600 py-2 px-8 uppercase tracking-wide shadow-lg font-bold"
-          on:click={readMore}>Send</button
+          on:click={() => {}}>Send</button
         >
       </div>
       <div class="flex flex-col justify-end">
