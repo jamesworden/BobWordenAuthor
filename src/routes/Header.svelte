@@ -2,7 +2,9 @@
   import { page } from '$app/stores';
 </script>
 
-<header class="flex justify-around font-semibold">
+<header
+  class="flex justify-around font-semibold border-b border-gray-300 bg-white"
+>
   <div class="w-full flex justify-between page-content-width p-2">
     <ul class="uppercase list-none my-3 p-0">
       <li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
@@ -22,14 +24,3 @@
     </nav>
   </div>
 </header>
-
-<style>
-  header {
-    background-color: var(--color-white);
-    border-bottom: 1px solid var(--color-gray-2);
-  }
-
-  a {
-    color: var(--color-black);
-  }
-</style>

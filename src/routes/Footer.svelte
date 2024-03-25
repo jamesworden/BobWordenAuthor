@@ -1,5 +1,5 @@
-<footer class="flex justify-around py-4">
-  <div class="footer-container gap-4 page-content-width">
+<footer class="flex justify-around py-4 bg-gray-800 text-gray-300">
+  <div class="w-full px-1 flex gap-4 page-content-width flex-col md:flex-row">
     <p class="footer-paragraph">
       990 Stewart Avenue, 1st Floor
       <br />
@@ -23,22 +23,3 @@
     </p>
   </div>
 </footer>
-
-<style>
-  footer {
-    background-color: var(--color-blue-4);
-    color: var(--color-gray-2);
-  }
-
-  .footer-container {
-    width: 100%;
-    display: flex;
-    padding: 0rem 1rem;
-  }
-
-  @media (max-width: 720px) {
-    .footer-container {
-      flex-direction: column;
-    }
-  }
-</style>
