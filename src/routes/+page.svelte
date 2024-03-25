@@ -39,7 +39,7 @@
         </div>
 
         <button
-          class="text-white bg-yellow-500 py-2 px-8 uppercase tracking-wide shadow-lg font-bold"
+          class="text-white bg-yellow-600 py-2 px-8 uppercase tracking-wide shadow-lg font-bold"
           on:click={readMore}>Read More</button
         >
       </div>
@@ -83,7 +83,7 @@
   </div>
 </section>
 
-<section class="bg-white p-12">
+<section class="p-12">
   <div class="page-content-width px-2 mx-auto grid grid-cols-3 gap-4">
     <div class="p-4">
       <h2 class="font-semibold mb-4">Mediation resolves conflict fast.</h2>
@@ -103,6 +103,85 @@
       going to trial before a Court. Unlike mediation, arbitration has no
       negotiation. The arbitrator hears the evidence in a case and decides if
       there will be any award and, if so, how much the award will be.
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="page-content-width px-2 mx-auto flex text-white">
+    <div class="flex-1 bg-yellow-600 p-12">
+      <h2 class="font-semibold text-3xl mb-4">Experience</h2>
+
+      <p class="mb-4">
+        Mediator, Arbitrator and Settlement Counsel with track record of early
+        resolution of lawsuits, handling major cases throughout New York State.
+        Extensive experience in high exposure, large-loss and catastrophic
+        general liability, premises, motor vehicle and property damages claims.
+        Areas of special interest include medical malpractice, products
+        liability and construction accidents under New York’s Labor Law.
+      </p>
+
+      <a href="/about" class="no-underline">Learn More →</a>
+    </div>
+
+    <div class="flex-1 flex flex-col">
+      <div
+        class="flex-1 bg-slate-700 transition pl-16 flex flex-col justify-around"
+      >
+        <div class="flex">
+          <div class="h-20 border-l border-gray-300 mr-4"></div>
+          <div class="flex flex-col justify-around">
+            <ul class="list-none flex flex-col">
+              <h2 class="font-semibold">National Mediation and Arbitration</h2>
+              <li>
+                <a
+                  href="https://www.namadr.com/neutrals-bio/bob-worden-esq/"
+                  class="no-underline hover:text-yellow-600 transition italic"
+                  >Mediator →</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.namadr.com/neutrals-bio/bob-worden-esq/"
+                  class="no-underline hover:text-yellow-600 transition italic"
+                  >Lecturer →</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <a
+        href="https://www.lwrlawyer.com/attorney/robert-p-worden-jr/"
+        class="flex-1 bg-slate-600 hover:bg-yellow-600 transition pl-16 flex flex-col justify-around"
+      >
+        <div class="flex">
+          <div class="h-20 border-l border-gray-300 mr-4"></div>
+          <div class="flex flex-col justify-around">
+            <ul class="list-none flex flex-col">
+              <h2 class="font-semibold">Law Firm</h2>
+              <h3>Lawrence Worden Rainis & Bard P.C.</h3>
+              <li class="italic">Learn More →</li>
+            </ul>
+          </div>
+        </div>
+      </a>
+
+      <a
+        href="https://www.jdsupra.com/legalnews/is-mediation-conducted-through-36050/"
+        class="flex-1 bg-slate-500 hover:bg-yellow-600 transition pl-16 flex flex-col justify-around"
+      >
+        <div class="flex">
+          <div class="h-20 border-l border-gray-300 mr-4"></div>
+          <div class="flex flex-col justify-around">
+            <ul class="list-none flex flex-col">
+              <h2 class="font-semibold">Articles</h2>
+              <li class="italic">Learn More →</li>
+            </ul>
+          </div>
+        </div>
+      </a>
     </div>
   </div>
 </section>
