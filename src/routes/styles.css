@@ -2,7 +2,7 @@
 @import '@fontsource-variable/assistant';
 
 :root {
-  --color-white-0: #ffffff;
+  --color-white: #ffffff;
 
   --color-black: #000000;
 
@@ -41,4 +41,5 @@ h2 {
   max-width: 1200px;
   display: flex;
   justify-content: space-between;
+  padding: 0rem 1rem;
 }

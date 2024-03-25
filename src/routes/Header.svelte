@@ -13,7 +13,7 @@
 		<nav>
 			<ul>
 				<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-					<a href="/">Home</a>
+					<a href="/" style="margin-right: 4rem">Home</a>
 				</li>
 				<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 					<a href="/about">About Bob</a>
@@ -27,14 +27,13 @@
 	header {
 		display: flex;
 		justify-content: space-around;
-		background-color: var(--color-white-0);
+		background-color: var(--color-white);
 		border-bottom: 1px solid var(--color-gray-2);
 		font-weight: 600;
 	}
 
 	li {
 		list-style-type: none;
-		margin-right: 4rem
 	}
 
 	a {
@@ -44,7 +43,8 @@
 
 	ul {
 		display: flex;
-		margin: 2rem;
+		margin: 2rem 0rem;
+		padding: 0;
 	}
 
 	.corner {
