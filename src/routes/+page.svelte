@@ -121,7 +121,7 @@
         liability and construction accidents under New York’s Labor Law.
       </p>
 
-      <a href="/about" class="no-underline">Learn More →</a>
+      <a href="/about" class="no-underline italic">Learn More →</a>
     </div>
 
     <div class="flex-1 flex flex-col">
@@ -182,6 +182,20 @@
           </div>
         </div>
       </a>
+    </div>
+  </div>
+</section>
+
+<section class="page-content-width px-2 mx-auto flex w-full">
+  <div class="diagonal-bg p-8 flex flex-1">
+    <div class="p-16 bg-gray-50 flex flex-1">
+      <div>
+        <h1 class="text-3xl">Reach out to Bob</h1>
+        <button
+          class="text-white bg-yellow-600 py-2 px-8 uppercase tracking-wide shadow-lg font-bold"
+          on:click={readMore}>Send</button
+        >
+      </div>
     </div>
   </div>
 </section>
