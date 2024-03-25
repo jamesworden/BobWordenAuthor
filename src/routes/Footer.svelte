@@ -1,4 +1,4 @@
-<footer class="flex justify-around py-4 bg-gray-800 text-gray-300">
+<footer class="flex justify-around py-4 bg-slate-800 text-gray-300">
   <div class="w-full px-1 flex gap-4 page-content-width flex-col md:flex-row">
     <p class="max-w-80">
       990 Stewart Avenue, 1st Floor

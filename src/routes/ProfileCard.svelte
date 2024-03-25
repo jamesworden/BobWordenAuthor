@@ -21,5 +21,5 @@
     consideration for all, make him a top choice to mediate disputes.
   </p>
 
-  <hr class="h-px w-1/6 bg-gray-800" />
+  <hr class="h-px w-1/6 bg-slate-800" />
 </section>
