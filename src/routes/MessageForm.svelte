@@ -48,12 +48,16 @@
         'Content-type': 'application/json; charset=UTF-8'
       }
     })
-      .then(() => {
-        hasSentMessage = true;
-        formStatus = FormStatus.Sent;
-        name = '';
-        email = '';
-        message = '';
+      .then((x) => {
+        if (x.status === 200) {
+          hasSentMessage = true;
+          formStatus = FormStatus.Sent;
+          name = '';
+          email = '';
+          message = '';
+        } else {
+          throw new Error('Failed to send message.');
+        }
       })
       .catch(() => {
         formStatus = FormStatus.Errored;
@@ -133,3 +137,14 @@
     </div>
   </form>
 </section>
+
+<style>
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    -webkit-background-clip: text;
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: inset 0 0 20px 20px transparent;
+  }
+</style>
