@@ -1,4 +1,4 @@
-<div class="grid grid-cols-3 gap-4">
+<div class="grid grid-cols-3 gap-4 scale-75 md:scale-100">
   <div class="triangle rotate-180 opacity-50 blue-triangle"></div>
   <div></div>
   <div class="triangle rotate-180 lightgray-triangle"></div>

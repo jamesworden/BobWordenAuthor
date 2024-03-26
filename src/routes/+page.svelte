@@ -20,21 +20,21 @@
 </svelte:head>
 
 <section class="flex page-content-width md:mx-auto">
-  <div class="hidden md:block">
+  <div class="hidden md:block pl-4 mb-8">
     <ProfileCard />
   </div>
 
-  <section class="diagonal-bg p-8 pl-0 md:pl-8 flex flex-1">
-    <div
-      class="p-16 pl-0 md:pl-16 bg-gray-50 flex flex-col justify-between flex-1"
-    >
+  <section class="diagonal-bg py-8 pr-8 md:pl-8 flex flex-1">
+    <div class="py-16 bg-gray-50 flex flex-col justify-between flex-1">
       <div class="px-4">
         <div class="mb-12">
           <h3 class="uppercase text-gray-600 tracking-widest mb-4">
             Bob Worden's New Title
           </h3>
 
-          <h1 class="font-semibold text-gray-700 mb-4 text-5xl md:text-6xl">
+          <h1
+            class="font-semibold text-gray-700 mb-4 text-4xl sm:text-5xl md:text-6xl"
+          >
             How to Stop Wars <br />and Save the World
           </h1>
 
@@ -47,7 +47,7 @@
         >
       </div>
 
-      <div class="flex justify-end">
+      <div class="flex justify-end md:pr-16">
         <TriangleGraphic />
       </div>
     </div>
@@ -116,10 +116,10 @@
   <div
     class="page-content-width mx-auto flex flex-col md:flex-row text-white shadow-xl"
   >
-    <div class="flex-1 bg-yellow-600 p-12">
+    <div class="flex-1 bg-yellow-600 p-4 py-12 md:px-12">
       <h2 class="font-semibold text-3xl mb-4">Experience</h2>
 
-      <p class="mb-4">
+      <p class="mb-4 max-w-xl">
         Mediator, Arbitrator and Settlement Counsel with track record of early
         resolution of lawsuits, handling major cases throughout New York State.
         Extensive experience in high exposure, large-loss and catastrophic
@@ -201,14 +201,14 @@
 
 <section class="page-content-width mx-auto flex w-full">
   <div class="diagonal-bg p-8 flex flex-1">
-    <div class="h-96 p-16 pl-0 bg-gray-50 flex flex-1 justify-between">
+    <div class="h-96 py-16 pl-0 bg-gray-50 flex flex-1 justify-between">
       <div></div>
       <div
-        class="flex flex-col justify-between absolute z-10 bg-gray-50 bg-opacity-80"
+        class="flex flex-col justify-between absolute z-10 bg-gray-50 bg-opacity-80 -mt-4"
       >
         <MessageForm />
       </div>
-      <div class="flex flex-col justify-end">
+      <div class="flex flex-col justify-end md:pr-8">
         <TriangleGraphic />
       </div>
     </div>
