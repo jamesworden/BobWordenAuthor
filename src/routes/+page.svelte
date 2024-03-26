@@ -126,24 +126,30 @@
 
     <div class="flex-1 flex flex-col">
       <div
-        class="flex-1 bg-slate-700 transition pl-16 flex flex-col justify-around"
+        class="flex-1 bg-slate-700 transition pl-16 flex flex-col justify-around group hover:bg-yellow-600"
       >
         <div class="flex">
           <div class="h-20 border-l border-gray-300 mr-4"></div>
           <div class="flex flex-col justify-around">
             <ul class="list-none flex flex-col">
               <h2 class="font-semibold">National Mediation and Arbitration</h2>
-              <li>
+              <li
+                class="group-hover:scale-110 group-hover:translate-x-6 transition"
+              >
                 <a
                   href="https://www.namadr.com/neutrals-bio/bob-worden-esq/"
-                  class="no-underline hover:text-yellow-600 transition italic"
+                  target="_blank"
+                  class="no-underline hover:text-slate-700 transition italic"
                   >Mediator →</a
                 >
               </li>
-              <li>
+              <li
+                class="group-hover:scale-110 group-hover:translate-x-6 transition"
+              >
                 <a
                   href="https://www.namadr.com/neutrals-bio/bob-worden-esq/"
-                  class="no-underline hover:text-yellow-600 transition italic"
+                  target="_blank"
+                  class="no-underline hover:text-slate-700 transition italic"
                   >Lecturer →</a
                 >
               </li>
@@ -154,6 +160,7 @@
 
       <a
         href="https://www.lwrlawyer.com/attorney/robert-p-worden-jr/"
+        target="_blank"
         class="flex-1 bg-slate-600 hover:bg-yellow-600 transition pl-16 flex flex-col justify-around"
       >
         <div class="flex">
@@ -170,6 +177,7 @@
 
       <a
         href="https://www.jdsupra.com/legalnews/is-mediation-conducted-through-36050/"
+        target="_blank"
         class="flex-1 bg-slate-500 hover:bg-yellow-600 transition pl-16 flex flex-col justify-around"
       >
         <div class="flex">
