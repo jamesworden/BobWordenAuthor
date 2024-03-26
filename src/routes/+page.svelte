@@ -34,7 +34,7 @@
             Bob Worden's New Title
           </h3>
 
-          <h1 class="font-semibold text-gray-700 mb-4">
+          <h1 class="font-semibold text-gray-700 mb-4 text-5xl md:text-6xl">
             How to Stop Wars <br />and Save the World
           </h1>
 
