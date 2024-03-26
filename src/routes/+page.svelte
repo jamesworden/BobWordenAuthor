@@ -19,7 +19,7 @@
   />
 </svelte:head>
 
-<section class="flex page-content-width md:mx-auto">
+<section class="flex page-content-width md:mx-auto w-full">
   <div class="hidden md:block pl-4 mb-8">
     <ProfileCard />
   </div>
