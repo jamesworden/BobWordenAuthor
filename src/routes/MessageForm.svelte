@@ -72,7 +72,7 @@
 </script>
 
 <section>
-  <h1 class="text-3xl mb-6">
+  <h1 class="text-3xl mb-6 text-slate-800 font-semibold">
     {#if formStatus === FormStatus.Errored}
       <p>Oops, something went wrong!</p>
     {:else if formStatus === FormStatus.NotSent}
