@@ -1,6 +1,7 @@
 <script>
   import ProfileCard from './ProfileCard.svelte';
   import TriangleGraphic from './TriangleGraphic.svelte';
+  import MessageForm from './MessageForm.svelte';
 
   function readMore() {
     const element = document.getElementById('read-more');
@@ -39,7 +40,7 @@
         </div>
 
         <button
-          class="text-white bg-yellow-600 py-2 px-8 uppercase tracking-wide shadow-lg font-bold"
+          class="text-white bg-yellow-600 py-2 px-8 uppercase tracking-wide shadow-lg font-bold hover:scale-105 hover:bg-yellow-500 transition"
           on:click={readMore}>Read More</button
         >
       </div>
@@ -139,8 +140,7 @@
                 <a
                   href="https://www.namadr.com/neutrals-bio/bob-worden-esq/"
                   target="_blank"
-                  class="no-underline hover:text-slate-700 transition italic"
-                  >Mediator →</a
+                  class="no-underline transition italic">Mediator →</a
                 >
               </li>
               <li
@@ -149,8 +149,7 @@
                 <a
                   href="https://www.namadr.com/neutrals-bio/bob-worden-esq/"
                   target="_blank"
-                  class="no-underline hover:text-slate-700 transition italic"
-                  >Lecturer →</a
+                  class="no-underline transition italic">Lecturer →</a
                 >
               </li>
             </ul>
@@ -197,12 +196,8 @@
 <section class="page-content-width px-2 mx-auto flex w-full">
   <div class="diagonal-bg p-8 flex flex-1">
     <div class="p-16 pl-0 bg-gray-50 flex flex-1 justify-between">
-      <div class="h-64 flex flex-col justify-between">
-        <h1 class="text-3xl">Reach out to Bob</h1>
-        <button
-          class="text-white bg-yellow-600 py-2 px-8 uppercase tracking-wide shadow-lg font-bold"
-          on:click={() => {}}>Send</button
-        >
+      <div class="flex flex-col justify-between">
+        <MessageForm />
       </div>
       <div class="flex flex-col justify-end">
         <TriangleGraphic />
