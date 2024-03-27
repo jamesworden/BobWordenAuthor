@@ -6,7 +6,7 @@
   class="horisontal-bg p-6 shadow-xl flex flex-col relative bg-slate-200 mt-16"
 >
   <picture class="-mt-16">
-    <img src={bob_worden} alt="Bob Worden" class="max-w-xs" />
+    <img src={bob_worden} alt="Bob Worden" class="sm:max-w-xs" />
   </picture>
 
   <h3 class="text-gray-600 uppercase my-6">Bob Worden, Esq.</h3>
