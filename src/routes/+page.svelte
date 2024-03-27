@@ -2,6 +2,7 @@
   import ProfileCard from './ProfileCard.svelte';
   import TriangleGraphic from './TriangleGraphic.svelte';
   import MessageForm from './MessageForm.svelte';
+  import bob_worden from '$lib/images/bob-worden.png';
 
   function readMore() {
     const element = document.getElementById('read-more');
@@ -47,7 +48,19 @@
         >
       </div>
 
-      <div class="flex justify-end md:pr-16">
+      <div class="md:hidden relative w-full h-48">
+        <div class="bg-slate-600 absolute right-12 top-12 pb-4 pr-4">
+          <picture>
+            <img
+              src={bob_worden}
+              alt="Bob Worden"
+              class="max-w-60 -mt-4 -ml-4"
+            />
+          </picture>
+        </div>
+      </div>
+
+      <div class="flex justify-end md:pr-16 hidden md:block">
         <TriangleGraphic />
       </div>
     </div>
