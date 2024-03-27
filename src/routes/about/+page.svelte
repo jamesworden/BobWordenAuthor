@@ -8,34 +8,6 @@
   <meta name="description" content="About this app" />
 </svelte:head>
 
-<section class=""></section>
-
-<!-- <section class="flex bw-page-content-width md:mx-auto w-full">
-  <section class="bw-diagonal-bg py-8 pr-8 flex flex-1">
-    <div class="py-16 bg-gray-50 flex flex-col justify-between flex-1">
-      <div class="px-4">
-        <div class="mb-12">
-          <h3 class="uppercase text-gray-600 tracking-widest mb-4">
-            Bob Worden, Esq.
-          </h3>
-
-          <h1
-            class="font-semibold text-gray-700 mb-4 text-4xl sm:text-5xl md:text-6xl"
-          >
-            About Bob
-          </h1>
-
-          <h2>Award Winning Mediator and Arbitrator</h2>
-        </div>
-      </div>
-
-      <div class="flex justify-end md:pr-16">
-        <TriangleGraphic />
-      </div>
-    </div>
-  </section>
-</section> -->
-
 <section
   id="read-more"
   class="bw-page-content-width mx-auto flex justify-between gap-x-4 w-full"
