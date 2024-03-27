@@ -217,15 +217,12 @@
 </section>
 
 <section class="bw-page-content-width mx-auto flex w-full">
-  <div class="bw-diagonal-bg p-8 flex flex-1">
-    <div class="h-96 py-16 pl-0 bg-gray-50 flex flex-1 justify-between">
-      <div></div>
-      <div
-        class="flex flex-col justify-between absolute z-10 bg-gray-50 bg-opacity-80 -mt-4"
-      >
+  <div class="bw-diagonal-bg p-8 pl-4 flex flex-1">
+    <div class="py-16 pl-0 bg-gray-50 flex flex-1 justify-between">
+      <div class="flex flex-col justify-between bg-gray-50 bg-opacity-80 -mt-4">
         <MessageForm />
       </div>
-      <div class="flex flex-col justify-end md:pr-8">
+      <div class="flex-col justify-end md:pr-8 hidden sm:flex">
         <TriangleGraphic />
       </div>
     </div>

@@ -83,10 +83,7 @@
     {/if}
   </h1>
 
-  <form
-    on:submit|preventDefault={handleSubmit}
-    class="w-80 flex flex-col gap-y-8"
-  >
+  <form on:submit|preventDefault={handleSubmit} class="flex flex-col gap-y-8">
     <label class="flex">
       <span class="mr-2">Name:</span>
       <input
