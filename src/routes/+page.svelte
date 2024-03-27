@@ -52,13 +52,13 @@
         >
       </div>
 
-      <div class="md:hidden relative w-full h-48">
-        <div class="bg-slate-600 absolute right-12 top-12 pb-4 pr-4">
+      <div class="md:hidden w-full flex justify-around mt-12">
+        <div class="bg-slate-600 p-3">
           <picture>
             <img
               src={bob_worden}
               alt="Bob Worden"
-              class="max-w-60 -mt-4 -ml-4"
+              class="max-w-60 -mt-6 -ml-6"
             />
           </picture>
         </div>
