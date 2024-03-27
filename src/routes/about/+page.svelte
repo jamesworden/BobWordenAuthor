@@ -10,7 +10,7 @@
 
 <section
   id="read-more"
-  class="bw-page-content-width mx-auto flex justify-between gap-x-4 w-full"
+  class="bw-page-content-width mx-auto flex flex-col md:flex-row justify-between gap-x-4 w-full"
 >
   <div class="flex-1 px-4">
     <div class="py-24">
@@ -25,6 +25,10 @@
       </h1>
 
       <h2>Award Winning Mediator and Arbitrator</h2>
+
+      <div class="md:hidden flex justify-around mt-20">
+        <ProfileCard />
+      </div>
     </div>
 
     <p class="max-w-xl text-md md:max-w-2xl md:text-xl mb-8 md:mb-16">
@@ -54,7 +58,7 @@
   </div>
 
   <div class="hidden md:block flex flex-col gap-y-8 flex-1">
-    <div class="bw-diagonal-bg min-h-96 flex">
+    <div class="bw-diagonal-bg min-h-96 hidden md:flex">
       <div class="m-8 bg-gray-50 flex-1 flex justify-end">
         <div class="flex flex-col justify-between m-8">
           <div class="flex-1"></div>
