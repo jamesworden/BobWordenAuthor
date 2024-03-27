@@ -19,12 +19,12 @@
   />
 </svelte:head>
 
-<section class="flex page-content-width md:mx-auto w-full">
+<section class="flex bw-page-content-width md:mx-auto w-full">
   <div class="hidden md:block pl-4 mb-8">
     <ProfileCard />
   </div>
 
-  <section class="diagonal-bg py-8 pr-8 md:pl-8 flex flex-1">
+  <section class="bw-diagonal-bg py-8 pr-8 md:pl-8 flex flex-1">
     <div class="py-16 bg-gray-50 flex flex-col justify-between flex-1">
       <div class="px-4">
         <div class="mb-12">
@@ -56,7 +56,7 @@
 
 <section id="read-more" class="bg-slate-800 py-12 md:p-12">
   <div
-    class="page-content-width mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 text-white"
+    class="bw-page-content-width mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 text-white"
   >
     <div class="px-4">
       <h2 class="font-semibold mb-4 max-w-xl">
@@ -87,7 +87,9 @@
 </section>
 
 <section class="py-12 md:p-12">
-  <div class="page-content-width mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
+  <div
+    class="bw-page-content-width mx-auto grid grid-cols-1 md:grid-cols-3 gap-4"
+  >
     <div class="px-4">
       <h2 class="font-semibold mb-4 max-w-xl">
         Mediation resolves conflict fast.
@@ -114,7 +116,7 @@
 
 <section class=" px-4">
   <div
-    class="page-content-width mx-auto flex flex-col md:flex-row text-white shadow-xl"
+    class="bw-page-content-width mx-auto flex flex-col md:flex-row text-white shadow-xl"
   >
     <div class="flex-1 bg-yellow-600 p-4 py-12 md:px-12">
       <h2 class="font-semibold text-3xl mb-4">Experience</h2>
@@ -181,7 +183,7 @@
       </a>
 
       <a
-        href="https://www.jdsupra.com/legalnews/is-mediation-conducted-through-36050/"
+        href="https://www.jdsupra.com/authors/bob-worden/"
         target="_blank"
         class="flex-1 bg-slate-500 hover:bg-yellow-600 transition pl-4 md:pl-16 flex flex-col justify-around py-4"
       >
@@ -199,8 +201,8 @@
   </div>
 </section>
 
-<section class="page-content-width mx-auto flex w-full">
-  <div class="diagonal-bg p-8 flex flex-1">
+<section class="bw-page-content-width mx-auto flex w-full">
+  <div class="bw-diagonal-bg p-8 flex flex-1">
     <div class="h-96 py-16 pl-0 bg-gray-50 flex flex-1 justify-between">
       <div></div>
       <div
@@ -214,14 +216,3 @@
     </div>
   </div>
 </section>
-
-<style>
-  .diagonal-bg {
-    background-color: transparent;
-    background-image: -webkit-linear-gradient(
-      -50deg,
-      transparent 75%,
-      #e5e7eb 25%
-    );
-  }
-</style>
