@@ -75,7 +75,7 @@
     {#if formStatus === FormStatus.Errored}
       <p>Oops, something went wrong!</p>
     {:else if formStatus === FormStatus.NotSent}
-      <p>Reach out to bob.</p>
+      <p>Reach out to Bob.</p>
     {:else if formStatus === FormStatus.Sending}
       <p>Sending...</p>
     {:else if formStatus === FormStatus.Sent}

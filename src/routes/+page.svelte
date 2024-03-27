@@ -30,14 +30,18 @@
       <div class="px-4">
         <div class="mb-12">
           <h3 class="uppercase text-gray-600 tracking-widest mb-4">
-            Bob Worden's New Title
+            <span>Bob Worden's New Title</span>
           </h3>
 
-          <h1
-            class="font-semibold text-gray-700 mb-4 text-4xl sm:text-5xl md:text-6xl"
-          >
-            How to Stop Wars <br />and Save the World
-          </h1>
+          <div class="mb-6">
+            <h1
+              class="font-semibold text-gray-700 text-4xl sm:text-5xl md:text-6xl"
+            >
+              How to Stop Wars <br />and Save the World
+            </h1>
+
+            <h3 class="opacity-50">Copyright © 2024</h3>
+          </div>
 
           <h2>Lessons in Negotiation, Settlement, <br />and Leadership</h2>
         </div>
@@ -60,7 +64,7 @@
         </div>
       </div>
 
-      <div class="flex justify-end md:pr-16 hidden md:block">
+      <div class="justify-end md:pr-16 hidden md:flex">
         <TriangleGraphic />
       </div>
     </div>
@@ -79,13 +83,12 @@
     </div>
 
     <div class="px-4 max-w-xl">
-      Soon to be available on Amazon and booksellers everywhere. In this new
-      short book, How to Stop Wars and Save the World, Bob Worden analyzes the
-      conflicts which led to fighting three American wars. He reveals surprising
-      stories which most people don’t know. Learn how to settle disputes of any
-      kind, while learning the key facts and circumstances which ignited the
-      Revolutionary, Civil and Vietnam wars. Using the mistakes leaders made in
-      these conflicts,
+      In this new book, How to Stop Wars and Save the World, Bob Worden analyzes
+      the conflicts which led to fighting three American wars. He reveals
+      surprising stories which most people don’t know. Learn how to settle
+      disputes of any kind, while learning the key facts and circumstances which
+      ignited the Revolutionary, Civil and Vietnam wars. Using the mistakes
+      leaders made in these conflicts,
     </div>
 
     <div class="px-4 max-w-xl">
@@ -112,10 +115,9 @@
 
     <div class="px-4 max-w-xl">
       Mediation is when a neutral person with special knowledge seeks to resolve
-      a lawsuit or other dispute, by meeting with the parties to the lawsuit in
-      order to obtain a swift and fair negotiated settlement. Arbitration
-      decides disputes with informal hearings before one arbitrator or several
-      arbitrators.
+      a lawsuit or other dispute, by meeting with the parties in order to obtain
+      a swift and fair negotiated settlement. Arbitration decides disputes with
+      informal hearings before one arbitrator or several arbitrators.
     </div>
 
     <div class="px-4 max-w-xl">
@@ -168,7 +170,7 @@
                 class="group-hover:scale-110 group-hover:translate-x-6 transition"
               >
                 <a
-                  href="https://www.namadr.com/neutrals-bio/bob-worden-esq/"
+                  href="https://profiles.superlawyers.com/new-york/melville/lawyer/robert-p-worden/2002b209-2407-432d-b0bd-5eec0cc0383f.html"
                   target="_blank"
                   class="no-underline transition italic">Lecturer →</a
                 >
