@@ -3,7 +3,7 @@
 </script>
 
 <header
-  class="flex justify-around font-semibold border-b border-gray-300 bg-white"
+  class="flex justify-around font-semibold border-b border-gray-300 bg-white sticky top-0 z-10"
 >
   <div class="w-full flex justify-between bw-page-content-width p-2">
     <ul class="uppercase list-none my-3 p-0">

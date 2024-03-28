@@ -13,7 +13,7 @@
   class="bw-page-content-width mx-auto flex flex-col md:flex-row justify-between gap-x-4 w-full"
 >
   <div class="flex-1 px-4">
-    <div class="py-24">
+    <div class="py-12 md:py-24">
       <h3 class="uppercase text-gray-600 tracking-widest mb-4">
         Bob Worden, Esq.
       </h3>
