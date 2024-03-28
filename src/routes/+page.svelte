@@ -52,7 +52,7 @@
         >
       </div>
 
-      <div class="md:hidden w-full flex justify-around mt-12">
+      <div class="md:hidden w-full flex justify-around mt-20">
         <div class="bg-slate-600 p-3">
           <picture>
             <img
