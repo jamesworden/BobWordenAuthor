@@ -3,13 +3,6 @@
   import TriangleGraphic from './TriangleGraphic.svelte';
   import MessageForm from './MessageForm.svelte';
   import bob_worden from '$lib/images/bob-worden.png';
-
-  function readMore() {
-    const element = document.getElementById('read-more');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  }
 </script>
 
 <svelte:head>
@@ -46,10 +39,11 @@
           <h2>Lessons in Negotiation, Settlement, <br />and Leadership</h2>
         </div>
 
-        <button
-          class="text-white bg-yellow-600 py-2 px-8 uppercase tracking-wide shadow-lg font-bold hover:scale-105 hover:bg-yellow-500 transition"
-          on:click={readMore}>Read More</button
-        >
+        <a 
+          href="https://a.co/d/ejuS2hT"
+          class="text-white bg-yellow-600 py-2 px-6 uppercase tracking-wide shadow-lg font-bold hover:scale-105 hover:bg-yellow-500 transition">
+          Order Now
+        </a>
       </div>
 
       <div class="md:hidden w-full flex justify-around mt-20">
@@ -77,13 +71,13 @@
   >
     <div class="px-4">
       <h2 class="font-semibold mb-4 max-w-xl">
-        Soon to be available on Amazon and booksellers everywhere.
+        <a href="https://a.co/d/ejuS2hT">Now available on Amazon.</a>
       </h2>
       <hr class="h-px w-1/6 bg-white" />
     </div>
 
     <div class="px-4 max-w-xl">
-      In this new book, How to Stop Wars and Save the World, Bob Worden analyzes
+      In this new book, <a class="underline" href="https://a.co/d/ejuS2hT">How to Stop Wars and Save the World</a>, Bob Worden analyzes
       the conflicts which led to fighting three American wars. He reveals
       surprising stories which most people don’t know. Learn how to settle
       disputes of any kind, while learning the key facts and circumstances which
