@@ -47,7 +47,8 @@
 
         <a 
           href="https://a.co/d/ejuS2hT"
-          class="text-white bg-yellow-600 py-2 px-6 uppercase tracking-wide shadow-lg font-bold hover:scale-105 hover:bg-yellow-500 transition">
+          class="text-white bg-yellow-600 py-2 px-6 uppercase tracking-wide shadow-lg font-bold hover:scale-105 hover:bg-yellow-500 transition"
+          target="_blank">
           Order Now
         </a>
       </div>
