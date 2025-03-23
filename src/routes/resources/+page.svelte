@@ -29,7 +29,7 @@
 
 <section>
   <div class="bw-page-content-width mx-auto">
-    <div class="px-4">
+    <div class="px-4 pb-12">
       <!-- Single reference list that will be distributed across columns with CSS -->
       <div class="reference-list grid grid-cols-1 md:grid-cols-2 gap-x-12">
         <ul class="space-y-4 md:col-span-2">
