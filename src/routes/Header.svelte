@@ -18,7 +18,10 @@
           <a href="/" class="no-underline mr-8">Home</a>
         </li>
         <li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-          <a href="/about" class="no-underline">About Bob</a>
+          <a href="/about" class="no-underline mr-8">About Bob</a>
+        </li>
+        <li aria-current={$page.url.pathname === '/resources' ? 'page' : undefined}>
+          <a href="/resources" class="no-underline">Resources</a>
         </li>
       </ul>
     </nav>
