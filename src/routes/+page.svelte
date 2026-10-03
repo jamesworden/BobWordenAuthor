@@ -1,8 +1,6 @@
 <script>
-  import ProfileCard from './ProfileCard.svelte';
   import TriangleGraphic from './TriangleGraphic.svelte';
-  import MessageForm from './MessageForm.svelte';
-  import bob_worden from '$lib/images/bob-worden.png';
+  import book_cover from '$lib/images/book-cover.jpg';
 </script>
 
 <svelte:head>
@@ -14,8 +12,16 @@
 </svelte:head>
 
 <section class="flex bw-page-content-width md:mx-auto w-full">
-  <div class="hidden md:block pl-4 mb-8">
-    <ProfileCard />
+  <div class="hidden md:flex pl-4 mb-8 items-center">
+    <div class="bg-slate-600 p-3 shadow-lg">
+      <picture>
+        <img
+          src={book_cover}
+          alt="Bob Worden"
+          class="max-w-60 -mt-6 -ml-6"
+        />
+      </picture>
+    </div>
   </div>
 
   <section class="bw-diagonal-bg py-8 pr-8 md:pl-8 flex flex-1">
@@ -41,16 +47,17 @@
 
         <a 
           href="https://a.co/d/ejuS2hT"
-          class="text-white bg-yellow-600 py-2 px-6 uppercase tracking-wide shadow-lg font-bold hover:scale-105 hover:bg-yellow-500 transition">
+          class="text-white bg-yellow-600 py-2 px-6 uppercase tracking-wide shadow-lg font-bold hover:scale-105 hover:bg-yellow-500 transition"
+          target="_blank">
           Order Now
         </a>
       </div>
 
       <div class="md:hidden w-full flex justify-around mt-20">
-        <div class="bg-slate-600 p-3">
+        <div class="bg-slate-600 p-3 shadow-lg">
           <picture>
             <img
-              src={bob_worden}
+              src={book_cover}
               alt="Bob Worden"
               class="max-w-60 -mt-6 -ml-6"
             />
@@ -79,7 +86,7 @@
     <div class="px-4 max-w-xl">
       In this new book, <a class="underline" href="https://a.co/d/ejuS2hT">How to Stop Wars and Save the World</a>, Bob Worden analyzes
       the conflicts which led to fighting three American wars. He reveals
-      surprising stories which most people don’t know. Learn how to settle
+      surprising stories which most people don't know. Learn how to settle
       disputes of any kind, while learning the key facts and circumstances which
       ignited the Revolutionary, Civil and Vietnam wars. Using the mistakes
       leaders made in these conflicts,
@@ -123,7 +130,7 @@
   </div>
 </section>
 
-<section class=" px-4">
+<section class="pb-16 px-4">
   <div
     class="bw-page-content-width mx-auto flex flex-col md:flex-row text-white shadow-xl"
   >
@@ -136,7 +143,7 @@
         Extensive experience in high exposure, large-loss and catastrophic
         general liability, premises, motor vehicle and property damages claims.
         Areas of special interest include medical malpractice, products
-        liability and construction accidents under New York’s Labor Law.
+        liability and construction accidents under New York's Labor Law.
       </p>
 
       <a href="/about" class="no-underline italic">Learn More →</a>
@@ -175,7 +182,7 @@
       </div>
 
       <a
-        href="https://www.lwrlawyer.com/attorney/robert-p-worden-jr/"
+        href="https://pvrklaw.com/attorney/robert-worden/"
         target="_blank"
         class="flex-1 bg-slate-600 hover:bg-yellow-600 transition pl-4 md:pl-16 flex flex-col justify-around py-4"
       >
@@ -184,7 +191,7 @@
           <div class="flex flex-col justify-around">
             <ul class="list-none flex flex-col">
               <h2 class="font-semibold">Law Firm</h2>
-              <h3>Lawrence Worden Rainis & Bard P.C.</h3>
+              <h3>Perry, Van Etten, Rainis & Kutner, LLP</h3>
               <li class="italic">Learn More →</li>
             </ul>
           </div>
@@ -206,19 +213,6 @@
           </div>
         </div>
       </a>
-    </div>
-  </div>
-</section>
-
-<section class="bw-page-content-width mx-auto flex w-full">
-  <div class="bw-diagonal-bg p-8 pl-4 flex flex-1">
-    <div class="py-16 pl-0 bg-gray-50 flex flex-1 justify-between">
-      <div class="flex flex-col justify-between bg-gray-50 bg-opacity-80 -mt-4">
-        <MessageForm />
-      </div>
-      <div class="flex-col justify-end md:pr-8 hidden sm:flex">
-        <TriangleGraphic />
-      </div>
     </div>
   </div>
 </section>
